@@ -12,6 +12,7 @@ export type Product = {
   mood: string;
   description: string;
   color: string;
+  image: string;
 };
 
 export type Order = {
@@ -45,6 +46,7 @@ export const products: Product[] = [
     description:
       "A plush oud profile with saffron brightness and a smoked amber finish for statement nights.",
     color: "#b5374e",
+    image: "/images/product-0.jpg",
   },
   {
     id: "prd-002",
@@ -61,6 +63,7 @@ export const products: Product[] = [
     description:
       "Sparkling bergamot and neroli sit on clean musk for daily wear that still feels premium.",
     color: "#e3a11f",
+    image: "/images/product-1.jpg",
   },
   {
     id: "prd-003",
@@ -76,6 +79,7 @@ export const products: Product[] = [
     description:
       "A leathered amber scent with peppered lift and lasting projection for formal occasions.",
     color: "#5b5f97",
+    image: "/images/product-2.jpg",
   },
   {
     id: "prd-004",
@@ -91,6 +95,7 @@ export const products: Product[] = [
     description:
       "Juicy lychee gives a modern pulse to damask rose and cashmere woods.",
     color: "#d94f70",
+    image: "/images/product-3.jpg",
   },
   {
     id: "prd-005",
@@ -106,6 +111,7 @@ export const products: Product[] = [
     description:
       "Cool mint and mineral salt over cedar, built for heat, movement, and easy compliments.",
     color: "#1f9ab8",
+    image: "/images/product-4.jpg",
   },
   {
     id: "prd-006",
@@ -121,6 +127,7 @@ export const products: Product[] = [
     description:
       "Spiced vanilla and tonka with a bright pink pepper opening that refuses to feel basic.",
     color: "#c56a2d",
+    image: "/images/product-5.jpg",
   },
 ];
 
