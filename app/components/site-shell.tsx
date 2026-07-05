@@ -22,6 +22,8 @@ const footerItems = [
   { href: "/about",       label: "Our story"   },
   { href: "/contact",     label: "Contact"      },
   { href: "/blog",        label: "Blog"         },
+  { href: "/privacy",     label: "Privacy Policy" },
+  { href: "/terms",       label: "Terms of Service" },
 ];
 
 /* ─────────────────────────────────────────────
