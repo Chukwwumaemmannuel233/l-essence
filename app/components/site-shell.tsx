@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { whatsappNumber } from "@/app/lib/data";
 import { CONTACT } from "@/app/lib/contact";
@@ -125,10 +126,11 @@ export function SiteHeader() {
         {/* Logo */}
         <Link
           href="/"
-          className="le-display text-[1.2rem] md:text-[1.35rem] tracking-[.2em] font-light z-10"
+          className="le-display flex items-center gap-2.5 text-[1.2rem] md:text-[1.35rem] tracking-[.2em] font-light z-10"
           style={{ color: GOLD_LIGHT }}
           aria-label="L'Essence home"
         >
+          <Image src="/images/favicon.png" alt="" width={40} height={28} style={{ objectFit: "contain" }} priority />
           L&apos;Essence
         </Link>
 
@@ -201,7 +203,8 @@ export function SiteHeader() {
         {/* Drawer header */}
         <div className="flex items-center justify-between px-7 py-6"
           style={{ borderBottom: "1px solid rgba(201,169,110,.1)" }}>
-          <span className="le-display text-[1.1rem] tracking-[.2em] font-light" style={{ color: GOLD_LIGHT }}>
+          <span className="le-display flex items-center gap-2.5 text-[1.1rem] tracking-[.2em] font-light" style={{ color: GOLD_LIGHT }}>
+            <Image src="/images/favicon.png" alt="" width={24} height={24} style={{ objectFit: "contain" }} />
             L&apos;Essence
           </span>
           <button

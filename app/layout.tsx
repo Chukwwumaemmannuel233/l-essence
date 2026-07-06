@@ -59,8 +59,8 @@ export const metadata: Metadata = {
 
     images: [
       {
-        url: "/og-image.jpg",
-        width: 1200,
+        url: "/images/favicon.png",
+        width: 2000,
         height: 630,
         alt: "L'Essence Perfumes",
       },
@@ -75,11 +75,11 @@ export const metadata: Metadata = {
     description:
       "Premium perfumes available through WhatsApp ordering.",
 
-    images: ["/og-image.jpg"],
+    images: ["favicon.png"],
   },
 
   icons: {
-    icon: "/favicon.ico",
+    icon: "/images/favicon.png",
     apple: "/apple-touch-icon.png",
   },
 };
